@@ -1,0 +1,39 @@
+.plan {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    border: 1px solid gray;
+}
+
+.selected {
+    transform: scale(1.04);
+}
+
+.title {
+    padding: 10%;
+    font-size: 30px;
+    border-bottom: 1px solid whitesmoke;
+    color: white;
+    position: relative;
+}
+
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 30px;
+}
+
+
+.speed {
+    padding: 5%;
+    color: rgb(137, 130, 130);
+}
+
+.text {
+    padding: 5%;
+    background-color: rgb(232, 228, 228);
+    color: rgb(137, 130, 130);
+}
