@@ -37,3 +37,12 @@
     background-color: rgb(232, 228, 228);
     color: rgb(137, 130, 130);
 }
+
+.button{
+   padding: 6%;
+   background-color: rgb(106, 98, 98);
+   color: white;
+   border: none;
+   font-size: 15px;
+   cursor: pointer;
+}

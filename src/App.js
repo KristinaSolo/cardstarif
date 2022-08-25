@@ -13,11 +13,12 @@ function App() {
       <div className="plans">
         {
           data.map((plan, i) =>
-          <Plan title={plan.title} price={plan.price} speed={plan.speed} text ={plan.text} card={cards[i]} isSelected={plan.isSelected}></Plan>
+          <Plan title={plan.title} price={plan.price} speed={plan.speed} text ={plan.text} card={cards[i]} isSelected={plan.isSelected} button={plan.button}></Plan>
           )
         }
       </div>
     </div>
+
   );
 }
 
